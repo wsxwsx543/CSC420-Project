@@ -1,7 +1,7 @@
 # Real-time Facial Expression Emoji Masking with Convolutional Neutral Networks and Homography.
 **Authors: [Qinchen Wang](https://qcw171717.github.io/Personal-Website/), [Sixuan Wu](https://github.com/wsxwsx543/), [Tingfeng Xia](https://tingfengx.com)**
 
-## | [Report](./writeup/ba_cloud_report.pdf) | [Code](./) | [Demo](https://youtu.be/GCjtXw1y8Pw) | 
+## | [Report](./writeup/ba_cloud_report.pdf) | [Code](https://github.com/wsxwsx543/CSC420-Project) | [Demo](https://youtu.be/GCjtXw1y8Pw) | 
 ## Enviornment
 You will need to install ```dlib```, ```imutils```, and ```cv2``` via:
 ``````
@@ -21,6 +21,7 @@ cd CSC420-Project/app
 python main.py 
 # a window should pop up and you will see your beautiful face and the masked result. 
 ``````
+Once you start the app, if you don't see the window poping up, that's because we failed to detect your face, please adjust tha angle and make sure your face is complete in the camera. During the execution of the app, if you see that the video is stuck, that's also mostly likely because we didn't detect your face. 
 
 ## Pretrained Models
 Our implementation uses VGG BA SMALL network, whose model weights are already included in the standalone app. Here are all our trained models, in case you wish to experiment. 
